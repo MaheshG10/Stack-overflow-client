@@ -20,7 +20,7 @@ function QuestionsDetails() {
   const Navigate = useNavigate()
   const dispatch=useDispatch()
   const location=useLocation()
-  const url = 'http://localhost:3000'
+  const url = 'https://stack-oveflow-api.onrender.com'
 
 
   const handlePostAns = (e, answerLength) =>{
